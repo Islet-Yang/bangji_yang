@@ -2,33 +2,32 @@
 layout: about
 title: about
 permalink: /
-subtitle: <a href='#'>Affiliations</a>. Address. Contacts. Motto. Etc.
+subtitle: MSCS student at UIUC. Researcher in machine learning, reasoning, generative models, and AI for science.
 
 profile:
   align: right
   image: prof_pic.jpg
-  image_circular: false # crops the image to make it circular
+  image_circular: true
   more_info: >
-    <p>555 your office number</p>
-    <p>123 your address street</p>
-    <p>Your City, State 12345</p>
+    <p>Urbana, IL, USA</p>
+    <p>bangjiy2@illinois.edu</p>
 
-selected_papers: true # includes a list of papers marked as "selected={true}"
-social: true # includes social icons at the bottom of the page
+selected_papers: true
+social: true
 
 announcements:
-  enabled: true # includes a list of news items
-  scrollable: true # adds a vertical scroll bar if there are more than 3 news items
-  limit: 5 # leave blank to include all the news in the `_news` folder
+  enabled: true
+  scrollable: false
+  limit: 4
 
 latest_posts:
-  enabled: true
-  scrollable: true # adds a vertical scroll bar if there are more than 3 new posts items
-  limit: 3 # leave blank to include all the blog posts
+  enabled: false
 ---
 
-Write your biography here. Tell the world about yourself. Link to your favorite [subreddit](https://www.reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.
+I am a Master of Science in Computer Science student at the [University of Illinois Urbana-Champaign](https://siebelschool.illinois.edu/), advised by Prof. Ge Liu. Before UIUC, I received my B.Eng. in Automation from [Tsinghua University](https://www.tsinghua.edu.cn/en/).
 
-Put your address / P.O. box / other info right below your picture. You can also disable any of these elements by editing `profile` property of the YAML header of your `_pages/about.md`. Edit `_bibliography/papers.bib` and Jekyll will render your [publications page](/al-folio/publications/) automatically.
+My current research focuses on efficient reasoning and generation. I am interested in reinforcement learning for large language models, multi-agent visual reasoning systems, masked diffusion language models, and machine learning methods for protein conformation and dynamics. A recurring theme in my work is building systems that improve reasoning or scientific modeling efficiency without relying on unnecessarily expensive inference.
 
-Link to your social media connections, too. This theme is set up to use [Font Awesome icons](https://fontawesome.com/) and [Academicons](https://jpswalsh.github.io/academicons/), like the ones below. Add your Facebook, Twitter, LinkedIn, Google Scholar, or just disable all of them.
+Recent projects include **Batched Contextual Reinforcement (BCR)** for efficient LLM reasoning, **M3** for closed-loop text-to-image generation with multi-modal multi-agent refinement, **MutAtlas** for large-scale protein mutation effect modeling, and **ConfRover** for autoregressive modeling of protein conformation and dynamics.
+
+I previously worked as a research intern at ByteDance Seed on AI drug design, where I developed protein generative modeling methods that connect SE(3)-aware diffusion ideas with causal sequence modeling.
