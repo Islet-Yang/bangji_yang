@@ -7,34 +7,34 @@ ninja.data = [{
     title: "about",
     section: "Navigation",
     handler: () => {
-      window.location.href = "/";
+      window.location.href = "/bangji_yang/";
     },
   },{id: "nav-publications",
           title: "publications",
           description: "Selected publications and preprints.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/publications/";
+            window.location.href = "/bangji_yang/publications/";
           },
         },{id: "nav-projects",
           title: "projects",
           description: "Research systems and directions.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/projects/";
+            window.location.href = "/bangji_yang/projects/";
           },
         },{id: "nav-cv",
           title: "CV",
           description: "A compact CV generated from the current site data. The PDF icon links to the full CV.",
           section: "Navigation",
           handler: () => {
-            window.location.href = "/cv/";
+            window.location.href = "/bangji_yang/cv/";
           },
         },{id: "books-the-godfather",
           title: 'The Godfather',
           description: "",
           section: "Books",handler: () => {
-              window.location.href = "/books/the_godfather/";
+              window.location.href = "/bangji_yang/books/the_godfather/";
             },},{id: "news-i-started-the-mscs-program-at-uiuc-and-joined-prof-ge-liu-s-group-as-a-graduate-research-assistant",
           title: 'I started the MSCS program at UIUC and joined Prof. Ge Liu’s group...',
           description: "",
@@ -48,38 +48,38 @@ ninja.data = [{
           title: 'Batched Contextual Reinforcement',
           description: "A task-scaling law for efficient LLM reasoning.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/1_project/";
+              window.location.href = "/bangji_yang/projects/1_project/";
             },},{id: "projects-m3",
           title: 'M3',
           description: "Multi-modal, multi-agent, multi-round visual reasoning for text-to-image generation.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/2_project/";
+              window.location.href = "/bangji_yang/projects/2_project/";
             },},{id: "projects-mutatlas",
           title: 'MutAtlas',
           description: "A PDB-wide energy-guided atlas of protein mutation effects.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/3_project/";
+              window.location.href = "/bangji_yang/projects/3_project/";
             },},{id: "projects-confrover",
           title: 'ConfRover',
           description: "Autoregressive modeling of protein conformation and dynamics.",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/4_project/";
+              window.location.href = "/bangji_yang/projects/4_project/";
             },},{id: "teachings-data-science-fundamentals",
           title: 'Data Science Fundamentals',
           description: "This course covers the foundational aspects of data science, including data collection, cleaning, analysis, and visualization. Students will learn practical skills for working with real-world datasets.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/data-science-fundamentals/";
+              window.location.href = "/bangji_yang/teachings/data-science-fundamentals/";
             },},{id: "teachings-introduction-to-machine-learning",
           title: 'Introduction to Machine Learning',
           description: "This course provides an introduction to machine learning concepts, algorithms, and applications. Students will learn about supervised and unsupervised learning, model evaluation, and practical implementations.",
           section: "Teachings",handler: () => {
-              window.location.href = "/teachings/introduction-to-machine-learning/";
+              window.location.href = "/bangji_yang/teachings/introduction-to-machine-learning/";
             },},{
         id: 'social-cv',
         title: 'CV',
         section: 'Socials',
         handler: () => {
-          window.open("/assets/pdf/bangji_yang_cv.pdf", "_blank");
+          window.open("/bangji_yang/assets/pdf/bangji_yang_cv.pdf", "_blank");
         },
       },{
         id: 'social-email',

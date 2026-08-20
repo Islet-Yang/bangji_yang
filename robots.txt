@@ -1,4 +1,4 @@
 User-agent: *
 Disallow:
 
-Sitemap: https://islet-yang.github.io/sitemap.xml
+Sitemap: https://islet-yang.github.io/bangji_yang/sitemap.xml
