@@ -21,7 +21,9 @@ announcements:
   limit: 4
 
 latest_posts:
-  enabled: false
+  enabled: true
+  scrollable: false
+  limit: 1
 ---
 
 I am a Master of Science in Computer Science student at the [University of Illinois Urbana-Champaign](https://siebelschool.illinois.edu/), advised by Prof. Ge Liu. Before UIUC, I received my B.Eng. in Automation from [Tsinghua University](https://www.tsinghua.edu.cn/en/).
